@@ -1,0 +1,113 @@
+body{
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px lightgrey;
+    text-align: center;
+}
+
+header img{
+    margin-top: 15px;
+    height: 50px;
+    padding-left: 40px;
+}
+.register{
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.login{
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+main{
+    clear: left;
+    width: 100%;
+}
+
+form{
+    margin: 0 auto;
+    border: 2px solid lightgray;
+    width: 600px;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 4px 4px 4px lightgray;
+}
+.form_contents{
+    margin: 30px 50px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    border-bottom: 1px solid #31A263;
+    font-size: 20px;
+}
+.error_message{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    color: red;
+    background-color: lightpink;
+    width: 100%;
+    text-align: center;
+}
+.mail{
+    margin-bottom: 20px;
+}
+.mail label{
+    display: inline-block;
+    text-align: left;
+}
+.password{
+    margin-bottom: 20px;
+}
+
+.formbox{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+.login_check{
+    margin-bottom: 20px;
+}
+
+.login_button{
+    text-align: center;
+}
+.submit_button{
+    display: inline-block;
+    border: 1px solid lightgray;
+    padding: 6px 10px 4px 10px;
+    background-color: #31A263;
+    color: #fff;
+    border-radius: 5px;
+    border-bottom: 2px solid gray;
+    width: 180px;
+    font-size: 15px;
+}
+
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: 2px solid lightgray;
+    position: absolute;
+    bottom: 0;
+}
+
